@@ -1,5 +1,5 @@
-import './App.css';
-import TodoItem from './component/TodoItem';
+import '../style/App.css';
+import TodoItem from './TodoItem';
 
 function App() {
   return (
