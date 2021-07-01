@@ -1,8 +1,9 @@
-function TodoItem(){
+function TodoItem({task}){
+
     return(
         <div className="todo-item">
-            <input type="checkbox"/>
-            <p>task 1</p>
+            <input type="checkbox" checked={task.completed}/>
+            <p>{task.text}</p>
         </div>
     )
 }
