@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "text": "Finish up this course",
+        "completed": true
+
+    },
+    {
+        "id":2,
+        "text": "Wash my teeth",
+        "completed": false
+
+    },
+    {
+        "id":3,
+        "text": "10 min for ML course",
+        "completed": false
+
+    },
+    {
+        "id":4,
+        "text": "Take another react course",
+        "completed": false
+
+    },
+    {
+        "id":5,
+        "text": "Answer emails",
+        "completed": true
+
+    },
+    {
+        "id":6,
+        "text": "Sleep",
+        "completed": false
+
+    }
+]
