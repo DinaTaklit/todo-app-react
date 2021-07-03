@@ -2,8 +2,9 @@ function TodoItem({task, handleChange}){
     return(
         <div className="todo-item">
             <input type="checkbox" 
-            checked={task.completed}
-            onChange={() => handleChange(task.id)}/>
+                onChange={() => handleChange(task.id)}
+                checked={task.completed}
+            />
             <p>{task.text}</p>
         </div>
     )
