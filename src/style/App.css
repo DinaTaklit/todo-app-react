@@ -1,3 +1,4 @@
+/* Style the to do list **/
 .todo-list{
     background-color: white;
     margin: auto;
@@ -16,6 +17,8 @@
     ;
 }
 
+
+/* Style the to do item **/
 .todo-item{
     display: flex;
     justify-content: flex-start;
@@ -36,4 +39,10 @@ input[type=checkbox]{
 
 input[type=checkbox]:focus{
    outline: 0;
+}
+
+.completed{
+    color: #cdcdcd;
+    text-decoration: line-through;
+    font-style: italic;
 }

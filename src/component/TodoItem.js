@@ -5,7 +5,7 @@ function TodoItem({task, handleChange}){
                 onChange={() => handleChange(task.id)}
                 checked={task.completed}
             />
-            <p>{task.text}</p>
+            <p className={task.completed? 'completed': ''}>{task.text}</p>
         </div>
     )
 }
